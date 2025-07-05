@@ -1,0 +1,10 @@
+---
+description: React Hooks best practices for frontend package
+globs:
+  - "packages/frontend/**"
+alwaysApply: true
+---
+- Always use `useEffect` cleanup functions to avoid memory leaks.
+- Prefer `useCallback` and `useMemo` to optimize re-renders.
+- Avoid using class components; prefer functional components.
+- Avoid excessive use of `useState`; for complex state logic, use `useReducer`.
