@@ -1,8 +1,6 @@
 ---
 description: Android Integration Testing best practices for multi-layer testing
-globs:
-  - "app/src/androidTest/java/**"
-alwaysApply: true
+alwaysApply: false
 ---
 - Integration tests should verify interactions between multiple layers (e.g., ViewModel + Repository + Data Source).
 - Use **Hilt Test Components** or DI overrides to inject fake or in-memory dependencies.

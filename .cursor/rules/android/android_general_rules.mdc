@@ -1,6 +1,4 @@
 ---
-description: 
-globs: 
 alwaysApply: false
 ---
 For every Kotlin Android code you generate or refactor:

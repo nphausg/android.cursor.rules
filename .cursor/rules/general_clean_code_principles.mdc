@@ -1,8 +1,6 @@
 ---
 description: Clean code principles for better readability
-globs:
-  - "**/*.kt"
-alwaysApply: true
+alwaysApply: false
 ---
 - Keep functions small and focused
 - One class per file

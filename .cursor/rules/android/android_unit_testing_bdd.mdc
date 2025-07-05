@@ -1,8 +1,6 @@
 ---
 description: Unit testing best practices with BDD style
-globs:
-  - "app/src/test/java/**"
-alwaysApply: true
+alwaysApply: false
 ---
 - Name test functions in BDD style: given_<condition>_when_<action>_then_<result>
 - Use GIVEN, WHEN, THEN comments in the test body for clarity.

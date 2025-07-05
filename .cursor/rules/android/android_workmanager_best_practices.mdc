@@ -1,8 +1,6 @@
 ---
 description: Best practices for WorkManager usage in background tasks
-globs:
-  - "app/src/main/java/**"
-alwaysApply: true
+alwaysApply: false
 ---
 - Use `CoroutineWorker` for suspendable background work.
 - Keep work inputs and outputs small and serializable.

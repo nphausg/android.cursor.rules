@@ -1,8 +1,6 @@
 ---
 description: Performance best practices for Android
-globs:
-  - "**/*.kt"
-alwaysApply: true
+alwaysApply: false
 ---
 - Avoid allocating objects in tight loops
 - Use lazy initialization where appropriate

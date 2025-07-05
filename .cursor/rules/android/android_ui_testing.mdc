@@ -1,8 +1,6 @@
 ---
 description: Android UI testing best practices using Espresso and Compose Testing
-globs:
-  - "app/src/androidTest/java/**"
-alwaysApply: true
+alwaysApply: false
 ---
 - Use **Espresso** for testing classic Android Views; use **Compose Testing APIs** for Jetpack Compose UI.
 - Keep UI tests focused on user interactions and visible UI changes.
